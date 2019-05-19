@@ -1,0 +1,16 @@
+{
+  "name": "http-with-websocket-server",
+  "version": "1.0.0",
+  "description": "用 Node.js 的 express、ws 架的簡易型 HTTP + Webscoket Server 範例",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "alvin <lcndance1999@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "ws": "^7.0.0"
+  }
+}
