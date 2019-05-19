@@ -1,6 +1,6 @@
 ### 關於 ###
-    (1)用 Node.js 的 express、ws 架的簡易型 HTTP + Webscoket Server 範例
-    (2)目標用途：client 端使用特定的 HTTP POST 請求發送參數，請求內容用 Websocket Server 廣播
+    (1)用 Node.js 的 express、ws 架的簡易型 HTTP + Webscoket 範例
+    (2)目標用途：client 端使用特定的 HTTP POST 請求發送參數，請求內容用 Websocket 廣播給所有已連接者
 
 ### 測試環境 ###
     Node.js：v10.15.1
