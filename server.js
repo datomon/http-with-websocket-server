@@ -1,5 +1,5 @@
 //實例化 Experss，並用它建立 http Server
-//再把 http Server 給 socket.io 建立 websocket Server (websocket 協定需 http 做交握)
+//再把 http Server 給 ws 模組建立 websocket Server (websocket 協定需 http 做交握)
 let express = require('express');  //要做額外的中介軟體設定，所以不直接接 ()
 let app  = express();
 const server = require('http').Server(app);
