@@ -1,6 +1,7 @@
 ### 關於 ###
     (1)用 Node.js 的 express、ws 架的簡易型 HTTP + Webscoket 範例
     (2)目標用途：client 端使用特定的 HTTP POST 請求發送參數，請求內容用 Websocket 廣播給所有已連接者
+    (3)不使用 Express 的版本為：https://github.com/datomon/http-with-websocket-server2
 
 ### 測試環境 ###
     Node.js：v10.15.1
@@ -8,7 +9,7 @@
 
 ### 使用方式 ###
     (1)安裝套件：npm install
-    (2)啟動 Server：node server.js
+    (2)啟動 Server：npm run start 或 node server
 
 ### 測試 ###
     (1)先用 Webscoket 連線工具連線「127.0.0.1:3000」
